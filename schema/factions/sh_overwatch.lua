@@ -4,8 +4,10 @@ FACTION.color = Color(150, 20, 0)
 FACTION.abbreviation = "OW"
 
 FACTION.models = {
-	"models/combine_soldier.mdl"
+	"models/nemez/combine_soldiers/combine_soldier_urban_h.mdl"
 }
+
+ix.anim.SetModelClass("models/nemez/combine_soldiers/combine_soldier_urban_h.mdl", "overwatch")
 
 FACTION.taglines = {
 	"leader",

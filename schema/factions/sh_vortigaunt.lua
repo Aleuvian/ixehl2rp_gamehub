@@ -1,8 +1,10 @@
 FACTION.name = "Vortigaunt"
 FACTION.description = "A xenian species, enslaved by the Combine. They are known for their healing abilities."
 FACTION.color = Color(0, 150, 0)
-FACTION.models = {"models/vortigaunt.mdl"}
+FACTION.models = {"models/sirgibs/ragdolls/hl_aliens/vortigaunt.mdl"}
 FACTION.weapons = {"swep_vortigaunt_beam_edit", "swep_vortigaunt_heal"}
+
+ix.anim.SetModelClass("models/sirgibs/ragdolls/hl_aliens/vortigaunt.mdl", "vortigaunt")
 
 function FACTION:OnTransfered(client)
 	local character = client:GetCharacter()

@@ -257,7 +257,7 @@ else
 
         local label = self:Add("DLabel")
         label:Dock(TOP)
-        label:SetText("<:: Civillian DataBase: " .. ply:SteamID64() .. " ::>")
+        label:SetText("<:: Civilian Database: " .. ply:SteamID64() .. " ::>")
         label:SetFont("ixSubTitleFont")
         label:SetContentAlignment(5)
         label:DockMargin(0, 0, 0, ScreenScale(10))

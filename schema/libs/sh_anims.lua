@@ -75,7 +75,7 @@ ix.anim.vort = {
 	glide = ACT_GLIDE
 }
 
-ix.anim.SetModelClass("models/vortigaunt.mdl", "vort")
+ix.anim.SetModelClass("models/sirgibs/ragdolls/hl_aliens/vortigaunt.mdl", "vort")
 ix.anim.SetModelClass("models/vortigaunt_slave.mdl", "vort")
 ix.anim.SetModelClass("models/vortigaunt_blue.mdl", "vort")
 ix.anim.SetModelClass("models/vortigaunt_doctor.mdl", "vort")

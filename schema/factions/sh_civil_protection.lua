@@ -1,36 +1,34 @@
-FACTION.name = "Civil Protection"
-FACTION.description = "The Civil Protection Force of the Universal Union."
+FACTION.name = "Ministry of Civil Protection"
+FACTION.description = "Civil Protection; Enforcing the rule of the Combine."
 FACTION.color = Color(20, 120, 185)
 FACTION.abbreviation = "CP"
 
 FACTION.models = {
-	"models/ez2npc/police.mdl"
+	"models/willardupgrades/civilprotection.mdl"
 }
 
-FACTION.skin = 1
-
-ix.anim.SetModelClass("models/ez2npc/police.mdl", "metrocop")
+ix.anim.SetModelClass("models/willardupgrades/civilprotection.mdl", "metrocop")
 
 FACTION.taglines = {
 	"union",
-    "defender",
-    "hero",
-    "jury",
-    "king",
-    "line",
-    "quick",
-    "roller",
-    "stick",
-    "tap",
-    "victor",
-	"xray"
+	"defender",
+	"hero",
+	"jury",
+	"king",
+	"line",
+	"quick",
+	"roller",
+	"stick",
+	"tap",
+	"victor",
+	"xray",
 }
 
-player_manager.AddValidModel("ixCPF", "models/ez2npc/police.mdl")
+player_manager.AddValidModel("ixCPF", "models/willardupgrades/civilprotection.mdl")
 player_manager.AddValidHands("ixCPF", "models/weapons/c_metrocop_hands.mdl", 0, "00000000")
 
 function FACTION:GetDefaultName(ply)
-	return "CP:RCT:" .. string.upper(self.taglines[math.random(1, #self.taglines)]) .. ":" .. Schema:ZeroNumber(math.random(100, 999), 3), true
+	return "MCP-i5." .. string.upper(self.taglines[math.random(1, #self.taglines)]) .. ":" .. Schema:ZeroNumber(math.random(100, 999), 3), true
 end
 
 function FACTION:GetDeathSound(ply)
@@ -59,7 +57,7 @@ function FACTION:OnCharacterCreated(ply, char)
 	end
 
 	char:SetClass(CLASS_CP_OFFICER)
-	char:SetRank(RANK_CP_RECRUIT)
+	char:SetRank(RANK_CP_I5)
 
 	char:SetData("permaClass", char:GetClass())
 	char:SetData("permaRank", char:GetRank())

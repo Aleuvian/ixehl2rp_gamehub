@@ -35,7 +35,7 @@ function PLUGIN:OnReloaded()
 end
 
 ix.DiscordLogs.Webhooks = {
-    ["chat"] = "https://discord.com/api/webhooks/XXXXXXXX/XXXXX",
+    ["chat"] = "https://discord.com/api/webhooks/1261488709837131918/BQOnaYqdeowjN3cU9fbxWVG7WdEjquEb0T7-7VfB1pbF7HrU9UHV3_LbDelILqcwo3X6",
     ["joinleave"] = "https://discord.com/api/webhooks/XXXXXXXX/XXXXX",
     ["admin"] = "https://discord.com/api/webhooks/XXXXXXXX/XXXXX",
 }

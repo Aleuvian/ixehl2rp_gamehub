@@ -9,7 +9,7 @@ function CLASS:OnSet(ply)
         return
     end
 
-    char:SetModel("models/combine_super_soldier.mdl")
+    char:SetModel("models/nemez/combine_soldiers/combine_soldier_elite_f.mdl")
     char:SetData("skin", 0)
 end
 
