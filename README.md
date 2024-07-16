@@ -3,6 +3,10 @@ ix: Enhanced Half-Life 2 Roleplay is a project started by [eon (bloodycop)](http
 
 The code is also open-source with a license, therefore you are allowed to modify it. Keep appropriate credit!\
 **Keep in mind you do require a bit of programming experience to understand what you're reading/modifying!**
+
+This variant is maintained and updated by [Aleuvian](https://github.com/Aleuvian) and [Wachter](https://github.com/taz0001). 
+We offer no support beyond the documentation included herein and guarantee no functionality or compatibility.
+
 # Required Addons for Usage (Unless you replace them)
 > [!IMPORTANT]
 > [Helix Content](https://steamcommunity.com/sharedfiles/filedetails/?id=1267236756)\
