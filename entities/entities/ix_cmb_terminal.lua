@@ -310,7 +310,7 @@ else
 			})
 		end
 
-		if ( Schema:IsCPRankLeader(ply) or Schema:IsOWElite(ply) or ply:IsAdmin() ) then
+		if ( Schema:IsCPOI5(ply) or Schema:IsCPOI4(ply) or Schema:IsCPOI3(ply) or Schema:IsCPOI2(ply) or Schema:IsCPOI1(ply) or Schema:IsOWElite(ply) or ply:IsAdmin() ) then -- This is ugly but I am too lazy to actually fix it.
 			self.cityCodesButton = self.leftPanel:Add("ixMenuButton")
 			self.cityCodesButton:Dock(TOP)
 			self.cityCodesButton:SetText("City Codes")
