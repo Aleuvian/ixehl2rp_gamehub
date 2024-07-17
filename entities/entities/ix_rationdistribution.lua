@@ -31,7 +31,7 @@ if ( SERVER ) then
 		self:SetEnabled(true)
 
         self.dispenser = ents.Create("prop_dynamic")
-        self.dispenser:SetModel("models/props_combine/combine_dispenser.mdl")
+        self.dispenser:SetModel("models/willardnetworks/props_combine/combine_dispenser.mdl")
         self.dispenser:SetPos(self:GetPos())
         self.dispenser:SetAngles(self:GetAngles())
         self.dispenser:SetParent(self)
